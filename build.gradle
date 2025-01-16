@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id("com.gradleup.shadow") version "9.0.0-beta4"
+}
+
+group = 'hw02_NightClubProject'
+version = '1.0-NightClubProject'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api'
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params'
+    testImplementation 'org.assertj:assertj-core:3.27.0'
+    testImplementation 'org.mockito:mockito-core:5.15.2'
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.15.2'
+
+}
+
+test {
+    useJUnitPlatform()
+}
