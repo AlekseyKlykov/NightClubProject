@@ -22,6 +22,15 @@ dependencies {
 
 }
 
+jar {
+    manifest {
+        attributes(
+
+                'Main-Class': 'hw02_NightClubProject.Main'
+        )
+    }
+}
+
 test {
     useJUnitPlatform()
 }
