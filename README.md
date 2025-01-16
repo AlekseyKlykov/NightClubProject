@@ -1,14 +1,14 @@
 <h1>Домашнее задание №2 - Разработать классы Ночной клуб и Фейсконтролер</h1>
 
-Подключенные зависимости:
-org.junit:junit-bom:5.10.0
-org.junit.jupiter:junit-jupiter
-org.junit.jupiter:junit-jupiter-api
-org.junit.jupiter:junit-jupiter-engine
-org.junit.jupiter:junit-jupiter-params
-org.assertj:assertj-core:3.27.0
-org.mockito:mockito-core:5.15.2
-org.mockito:mockito-junit-jupiter:5.15.2
+<h3>Подключенные зависимости:</h3>
+<ul><li>org.junit:junit-bom:5.10.0</li>
+<li>org.junit.jupiter:junit-jupiter</li>
+<li>org.junit.jupiter:junit-jupiter-api</li>
+<li>org.junit.jupiter:junit-jupiter-engine</li>
+<li>org.junit.jupiter:junit-jupiter-params</li>
+<li>org.assertj:assertj-core:3.27.0</li>
+<li>org.mockito:mockito-core:5.15.2</li>
+<li>org.mockito:mockito-junit-jupiter:5.15.2</li></ul>
 
 Реализовано 2 класса NightClub - ночной клуб и FaceControl - фейсконтролер.
 FaceControl является зависимостью NightClub и отвечает за проверку задолжности посетителя и проверку стиля одежды.
