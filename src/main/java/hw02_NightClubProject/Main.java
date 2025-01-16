@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
      FaceControl faceControl = new FaceControl();
     NightClub nightClub = new NightClub(faceControl,100,20);
-    nightClub.letIn(3,"Ретро");
+    nightClub.letIn(2,"Ретро");
 
         }
     }

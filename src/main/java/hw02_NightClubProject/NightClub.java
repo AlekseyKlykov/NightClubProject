@@ -47,26 +47,26 @@ public class NightClub {
     if(this.actualNumberOfPeople < this.capacityOfPeople) {
         if((dayOfTheWeek == 3 || dayOfTheWeek == 1 || dayOfTheWeek == 6 )) {
             this.actualNumberOfPeople++;
-            System.out.println("Человек вошел в клуб.");
+            System.out.println("A man entered the club");
             return true;
         }
         boolean sln = faceControl.letPersonIntoTheClub(clothesStyle);
 
         if(sln) {
             this.actualNumberOfPeople++;
-            System.out.println("Человек вошел в клуб.");
+            System.out.println("A man entered the club");
 
             return true;
         }
 
         else {
-            System.out.println("Человек не прошел фейскотроль.");
+            System.out.println("The man did not enter the club");
             return false;
         }
         }
 
     else {
-        System.out.println("Мест нет.");
+        System.out.println("There are no seats");
         return false;
     }
 
