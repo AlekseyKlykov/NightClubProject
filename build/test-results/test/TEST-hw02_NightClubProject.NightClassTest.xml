@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hw02_NightClubProject.NightClassTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-01-16T17:28:37" hostname="MSI-3PIO" time="0.559">
+<testsuite name="hw02_NightClubProject.NightClassTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-01-21T09:12:24" hostname="MSI-3PIO" time="0.579">
   <properties/>
-  <testcase name="Не должен впускать человека в клуб без мест" classname="hw02_NightClubProject.NightClassTest" time="0.548"/>
-  <testcase name="Не должен впускать человека в классическом" classname="hw02_NightClubProject.NightClassTest" time="0.004"/>
-  <testcase name="Должен впустить человека в стиле Ретро или Эко-стиль вне зависимости от дня недели" classname="hw02_NightClubProject.NightClassTest" time="0.002"/>
+  <testcase name="Не должен впускать человека в клуб без мест" classname="hw02_NightClubProject.NightClassTest" time="0.568"/>
+  <testcase name="Не должен впускать человека в классическом" classname="hw02_NightClubProject.NightClassTest" time="0.003"/>
+  <testcase name="Должен впустить человека в стиле Ретро или Эко-стиль вне зависимости от дня недели" classname="hw02_NightClubProject.NightClassTest" time="0.003"/>
   <testcase name="Не должен выпускать человека с долгами" classname="hw02_NightClubProject.NightClassTest" time="0.001"/>
   <system-out><![CDATA[There are no seats
 The man did not enter the club
 A man entered the club
 true
 true
+number of tests:  4
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

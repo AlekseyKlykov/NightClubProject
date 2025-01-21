@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8de171b-8d6f-4a61-925f-9a55ad2b9955" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,17 +68,44 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.NightClassTest.executor": "Run",
+    "Gradle.NightClassTest.noLetGoClubeWithDebt.executor": "Run",
+    "Gradle.NightclubProject [:hw02_NightClubProject.Main.main()].executor": "Run",
     "Gradle.NightclubProject [build].executor": "Run",
     "Gradle.NightclubProject [clean].executor": "Run",
     "Gradle.NightclubProject [shadowJar].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "wh02branch",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/aleks/GradleProject",
+    "last_opened_file_path": "C:/Users/aleks/IdeaProjects/NightclubProject",
     "onboarding.tips.debug.path": "C:/Users/aleks/IdeaProjects/NightclubProject/src/main/java/hw02_NightClubProject/Main.java"
   }
 }]]></component>
   <component name="RunManager" selected="Gradle.NightclubProject [shadowJar]">
+    <configuration name="NightClassTest.noLetGoClubeWithDebt" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hw02_NightClubProject.NightClassTest.noLetGoClubeWithDebt&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="NightclubProject [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -152,6 +177,7 @@
         <item itemvalue="Gradle.NightclubProject [shadowJar]" />
         <item itemvalue="Gradle.NightclubProject [build]" />
         <item itemvalue="Gradle.NightclubProject [clean]" />
+        <item itemvalue="Gradle.NightClassTest.noLetGoClubeWithDebt" />
       </list>
     </recent_temporary>
   </component>
@@ -165,16 +191,5 @@
       <updated>1736950313612</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/hw02_NightClubProject/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

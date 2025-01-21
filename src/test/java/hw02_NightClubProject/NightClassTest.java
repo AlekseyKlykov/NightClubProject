@@ -2,22 +2,28 @@ package hw02_NightClubProject;
 
 
 import org.assertj.core.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.mockito.Mockito;
 
 public class NightClassTest {
     private NightClub nightClub;
     private FaceControl faceControl;
+    public static int cTest;
+
+    @BeforeAll
+    static void Initialisation(){
+        cTest  = 0;
+
+
+    }
 
     @BeforeEach
     void StartConfig(){
         faceControl = Mockito.mock(FaceControl.class);
         nightClub = new NightClub(faceControl,100,20);
 
-
     }
+
 
     @DisplayName("Должен впустить человека в стиле Ретро или Эко-стиль вне зависимости от дня недели")
     @Test
@@ -29,6 +35,8 @@ public class NightClassTest {
         boolean actRes = nightClub.letIn(4,"Ретро");
         System.out.println(actRes);
         System.out.println(expRes);
+
+        cTest++;
 
         Assertions.assertThat(expRes).isEqualTo(actRes);
 
@@ -46,7 +54,7 @@ public class NightClassTest {
 
         boolean actRes = nightClub.letIn(4,"Классический");
 
-
+        cTest++;
         Assertions.assertThat(expRes).isEqualTo(actRes);
 
 
@@ -62,10 +70,9 @@ public class NightClassTest {
         boolean expRes = false;
 
         boolean actRes = nightClub.letIn(4,"Классический");
-
+        cTest++;
 
         Assertions.assertThat(expRes).isEqualTo(actRes);
-
 
 
 
@@ -79,12 +86,18 @@ public class NightClassTest {
         boolean expRes = true;
 
         boolean actRes = nightClub.letGo(true);
-
+        cTest++;
 
         Assertions.assertThat(expRes).isEqualTo(actRes);
 
 
 
+
+    }
+    @AfterAll
+   static void EndTest(){
+
+        System.out.println("number of tests:  " + cTest);
 
     }
 
